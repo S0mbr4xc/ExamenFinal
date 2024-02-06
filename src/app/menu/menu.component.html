@@ -1,0 +1,9 @@
+<h1>Examen final - Esteban Córdova</h1>
+
+<header>
+    <ul>
+        <li *ngFor="let link of paginas">
+            <a href="#" [routerLink]="link.path">{{link.titulo}}</a>
+        </li>
+    </ul>
+</header>
